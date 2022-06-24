@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor{
+    background: wheat;
+}
+body{
+    width: 1200px;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 20px 50px;
+}
+header{
+    color: white;
+    background-color: black;
+    margin:auto;
+    height: 110px;
+}
+header h1{
+    font-size: 96px;
+    margin: auto 10px;
+    display: inline-block;
+    width: 600px;
+}
+nav{
+    width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    margin: 20px;
+    display: inline-block;
+    list-style: none;
+}
+main{
+    padding: 20px;
+    display: inline-block;
+    width: 620px;
+    background: whitesmoke;
+}
+main h2{
+    margin-bottom: 20px;
+}
+figure{
+    text-align: center;
+}
+main p{
+    margin: 20px;
+}
+section{
+    padding: 20px;
+    display: inline-block;
+    width: 460px;
+    vertical-align: top;
+}
+section h2{
+    margin-bottom: 20px;
+}
+article p{
+    padding-left: 220px;
+    background: url(../imagenes/loba.jpg) no-repeat left top, url(../imagenes/loba2.jpg) no-repeat left bottom;
+}
+aside{
+    background: white;
+    text-align: center;
+    padding: 100px;
+    border-top: 20px solid grey;
+    border-bottom: 20px solid gray;
+}
+aside img{
+    margin: 60px;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
